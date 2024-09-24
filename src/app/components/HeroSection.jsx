@@ -20,8 +20,7 @@ const HeroSection = () => {
               Hi, My name is Arum
             </span>
             <br></br>
-            I&apos;m a{" "}
-            {/* <br></br> */}
+            I&apos;m a {/* <br></br> */}
             <TypeAnimation
               sequence={[
                 "Technical Writer",
@@ -58,7 +57,7 @@ const HeroSection = () => {
               <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">
                 Download CV
               </span>
-          </Link>
+            </Link>
           </div>
         </motion.div>
         <motion.div
@@ -66,9 +65,16 @@ const HeroSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
           className="col-span-4 place-self-center mt-4 lg:mt-0"
-          >
+        >
           <div className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative overflow-hidden">
-            <div style={{ width: '100%', height: '100%', borderRadius: '50%', overflow: 'hidden' }}>
+            <div
+              style={{
+                width: "100%",
+                height: "100%",
+                borderRadius: "50%",
+                overflow: "hidden",
+              }}
+            >
               <Image
                 src="/images/arum.jpg"
                 alt="hero image"
@@ -76,12 +82,11 @@ const HeroSection = () => {
                 width={400}
                 height={400}
                 style={{
-                transform: 'scale(1.1) translateX(-2%)',
+                  transform: "scale(1.1) translateX(-2%)",
                 }}
               />
             </div>
           </div>
-
         </motion.div>
       </div>
     </section>

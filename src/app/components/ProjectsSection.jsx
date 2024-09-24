@@ -12,7 +12,7 @@ const projectsData = [
       "This personal website project serves as a digital portfolio to showcase my skills, experience, and projects. It is designed with a clean and modern interface to provide a seamless user experience, highlighting my journey as a developer and my passion for technology. Visitors can easily explore my work, connect with me, and stay updated on my latest projects.",
     image: "/images/projects/personalweb.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
+    gitUrl: "https://github.com/roannarum/Arum-portfolio.git",
     previewUrl: "/",
   },
   {
@@ -21,9 +21,10 @@ const projectsData = [
     description:
       "DiskusAI is a platform that combines Discussion Forums, Search Bar Optimization, and Chatbot AI functionalities. DiskusAI aims to provide a better user experience by delivering relevant and helpful answers in discussions, assisting users in finding information effectively, and suggesting appropriate discussion topics.",
     image: "/images/projects/DiskusAi.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    tag: ["All", "ML"],
+    gitUrl: "https://github.com/C23-DF02-DiskusAI-Dicoding-Indonesia",
+    previewUrl:
+      "https://drive.google.com/file/d/1fiji8Iy4bLrLpItzRJsIgxkVI5gDs4Pu/view?usp=sharing",
   },
   {
     id: 3,
@@ -32,8 +33,8 @@ const projectsData = [
       "The project is designed to streamline the class registration process for prospective participants or company clients.",
     image: "/images/projects/daftar.sadasa.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://daftar.sadasa.id/",
+    previewUrl: "https://daftar.sadasa.id/",
   },
   {
     id: 4,
@@ -42,8 +43,8 @@ const projectsData = [
       "Arumstay is a hotel reservation website designed to provide users with a seamless booking experience. The platform allows visitors to browse available rooms, check rates, and make reservations effortlessly.",
     image: "/images/projects/Arumstay.png",
     tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/roannarum/Hotel-Reservation.git",
+    previewUrl: "https://github.com/roannarum/Hotel-Reservation.git",
   },
   {
     id: 5,
@@ -51,7 +52,7 @@ const projectsData = [
     description:
       "An anxiety measurement application designed for children and adolescents aged 8 to 21 years. The anxiety measurements in the Moodteen application are based on the SCARED Scale, which has been adapted and undergone psychometric property analysis to fit the Indonesian version, adjusted to the Indonesian culture and language.",
     image: "/images/projects/moodteen.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Mobile"],
     gitUrl:
       "https://drive.google.com/file/d/1JBFusrfmIwTsPzEV3fRkaRVzTumRNoRy/view?usp=sharing",
     previewUrl:
@@ -63,7 +64,7 @@ const projectsData = [
     description:
       "The Academic Counselling System is an online platform designed to facilitate student guidance. It provides a specification of all requirements needed for the system, allowing lecturers to respond to student concerns more efficiently. This system helps lecturers better understand each student's situation by offering easy online access",
     image: "/images/projects/AC.png",
-    tag: ["All", "Web"],
+    tag: ["All", "Documentation"],
     gitUrl:
       "https://drive.google.com/file/d/1JBFusrfmIwTsPzEV3fRkaRVzTumRNoRy/view?usp=sharing",
     previewUrl:
@@ -121,8 +122,13 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
+          name="Documentation"
           isSelected={tag === "Documentation"}
+        />
+        <ProjectTag
+          onClick={handleTagChange}
+          name="ML"
+          isSelected={tag === "ML"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
