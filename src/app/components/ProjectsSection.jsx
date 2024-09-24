@@ -54,9 +54,9 @@ const projectsData = [
     image: "/images/projects/moodteen.png",
     tag: ["All", "Mobile"],
     gitUrl:
-      "https://drive.google.com/file/d/1JBFusrfmIwTsPzEV3fRkaRVzTumRNoRy/view?usp=sharing",
+      "https://play.google.com/store/apps/details?id=com.scriptalpha.moodteen&pcampaignid=web_share",
     previewUrl:
-      "https://www.figma.com/proto/3rTznDCmoXNSdEx3SATiS2/RPL-KELOMPOK-4?node-id=143-1958&scaling=scale-down-width&page-id=67%3A428&starting-point-node-id=143%3A1958&t=1rXeSxkth2rXJZ6Z-1",
+      "https://play.google.com/store/apps/details?id=com.scriptalpha.moodteen&pcampaignid=web_share",
   },
   {
     id: 6,
