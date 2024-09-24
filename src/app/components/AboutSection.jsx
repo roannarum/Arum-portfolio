@@ -69,12 +69,12 @@ const AboutSection = () => {
         <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
           <h2 className="text-4xl font-bold text-white mb-4">About Me</h2>
           <p className="text-base lg:text-lg">
-            I'm an Information Systems graduate with a passion for building
+            I&apos;m an Information Systems graduate with a passion for building
             interactive and user-centric web applications. My expertise spans
             Software Development, UI/UX design, web applications, databases, and
             machine learning. I am proficient in various technologies and always
-            looking to expand my skill set. I'm a quick learner, adaptable, and
-            a strong team player with effective problem-solving and
+            looking to expand my skill set. I&apos;m a quick learner, adaptable,
+            and a strong team player with effective problem-solving and
             communication skills. I thrive in collaborative environments and am
             driven to deliver innovative and impactful solutions.
           </p>

@@ -18,7 +18,7 @@ const EmailSection = () => {
           Let&apos;s Connect
         </h5>
         <p className="text-[#ADB7BE] mb-4 max-w-md">
-          Let's Connect I&apos;m always open to exciting opportunities and
+          Let&apos;s Connect I&apos;m always open to exciting opportunities and
           collaborations. If you have any questions, want to discuss a project,
           or just want to chat, feel free to reach out. I&apos;ll do my best to
           respond promptly!
